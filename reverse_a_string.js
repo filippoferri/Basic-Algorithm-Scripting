@@ -19,6 +19,4 @@ function reverseString(str) {
   return strReverse;
 }
 
-reverseString('hello');
-
 reverseString("hello");
