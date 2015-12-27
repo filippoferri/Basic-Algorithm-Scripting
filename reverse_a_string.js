@@ -15,10 +15,10 @@ Array.join()
 */
 
 function reverseString(str) {
-    strSplit = str.split("");
-    strReverse = strSplit.reverse();
-    strJoin = strReverse.join("");
-    return strJoin;
+  var strReverse = str.split('').reverse().join('');
+  return strReverse;
 }
+
+reverseString('hello');
 
 reverseString("hello");
